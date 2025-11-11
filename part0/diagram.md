@@ -1,3 +1,4 @@
+```
 sequenceDiagram
     participant browser
     participant server
@@ -35,3 +36,4 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: Browser executes the callback<br/>and re-renders the list of notes<br/>including the new note "Hello Everyone"
+```
