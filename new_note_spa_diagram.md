@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -15,3 +16,4 @@ sequenceDiagram
     Note right of browser: Browser updates its local state (notes array)<br/>without reloading the page
 
     Note right of browser: Browser re-renders the notes list dynamically<br/>showing the new note "Sit Down"
+```

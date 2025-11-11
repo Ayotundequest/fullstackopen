@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -27,3 +28,4 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: Browser renders notes using JavaScript<br/>No new page loads — everything happens inside the SPA
+```
